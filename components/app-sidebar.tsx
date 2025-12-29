@@ -16,12 +16,10 @@ import logo from "@/public/drawing.svg"
 export function AppSidebar() {
   return (
     <Sidebar>
-      <SidebarHeader className="min-h-7 block">
-        <SidebarMenuButton>
+      <SidebarHeader className="min-h-7 block pt-6 pb-4">
             <a href='/'>
                 <img src={logo.src} alt="Logo" width={192} height={400} className="absolute pl-4"/>
             </a>
-        </SidebarMenuButton>
       </SidebarHeader>
       <SidebarContent className="pt-20">
         <SidebarGroup>

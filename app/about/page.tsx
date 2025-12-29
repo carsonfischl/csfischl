@@ -1,10 +1,37 @@
+"use client";
+
 import React from 'react'
+import carleton from '@/public/carleton.png';
+import { TypeAnimation } from 'react-type-animation';
 
 type Props = {}
 
 function About({}: Props) {
   return (
-    <div>about</div>
+    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+      <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 w-screen">
+                <div className="text-xl sm:text-md md:text-xl">
+          <TypeAnimation
+            sequence={[
+              'About Me', // Types 'One'
+              10000, // Waits 1s
+              () => {
+                console.log('Sequence completed');
+              },
+            ]}
+            wrapper="span"
+            cursor={true}
+            repeat={1}
+            style={{ fontSize: '2em', display: 'inline-block' }}
+          />
+        </div>
+        <p className="max-w-2xl text-base sm:text-lg md:text-xl">
+          My name is Carson! I am currently a US-based consultant in the financial technology sector. I have a passion for technology, programming, history, the humanities, and exploring the world around us. 
+          
+          In my free time, I enjoy creating content on YouTube, sharing my knowledge and experiences with others. Feel free to connect with me on my social media platforms!
+        </p>
+      </main>
+    </div>
   )
 }
 
