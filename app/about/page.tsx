@@ -10,10 +10,10 @@ function About({}: Props) {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 w-screen">
-                <div className="text-xl sm:text-md md:text-xl">
+        <div className="text-xl sm:text-md md:text-xl">
           <TypeAnimation
             sequence={[
-              'About Me', // Types 'One'
+              'Hello!', // Types 'One'
               10000, // Waits 1s
               () => {
                 console.log('Sequence completed');
@@ -26,9 +26,15 @@ function About({}: Props) {
           />
         </div>
         <p className="max-w-2xl text-base sm:text-lg md:text-xl">
-          My name is Carson! I am currently a US-based consultant in the financial technology sector. I have a passion for technology, programming, history, the humanities, and exploring the world around us. 
+          My name is Carson! I am currently a US-based consultant in the financial technology sector. My passions include history, hiking, economics, web development, and going on adventures.
           
-          In my free time, I enjoy creating content on YouTube, sharing my knowledge and experiences with others. Feel free to connect with me on my social media platforms!
+          In my free time, I enjoy going on extended hikes and enjoying my love for the outdoors. This includes doing the Camino de Santiago in Spain, the Ruta Vicentina in Portugal, and various other trails across North America and Europe.
+          
+          I am also an avid history enthusiast, with a particular interest in economic, political and military history. I am a member of various numismatic clubs and organizations and enjoy collecting historical coins and artifacts from around the world. My particular areas of interest include Hellenistic Era, Rome, the Byzantine Empire, the Age of Revolutions, and early modern European history.
+
+          When I develop web applications, my stack of choice includes Next.js, React, TypeScript, Tailwind CSS, and Node.js. I enjoy building both front-end and back-end solutions. For non-web development projects, I often use Python for data analysis and automation tasks. 
+
+          I am always eager to meet likeminded people and seek out new opportunities, so feel free to reach out!
         </p>
       </main>
     </div>
