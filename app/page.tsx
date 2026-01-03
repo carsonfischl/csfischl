@@ -11,7 +11,7 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 w-screen">
+      <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12">
         <Image src={logo} alt="Logo" />
         <div className="text-xl sm:text-md md:text-xl">
           <TypeAnimation 
