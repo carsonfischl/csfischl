@@ -27,10 +27,9 @@ function Education({}: Props) {
                cursor={true}
                repeat={1}
                style={{ fontSize: '2em', display: 'inline-block' }}
-               className='font-bold'
              />
            </div>
-            <Image src={carleton} alt="Carleton College Campus" className="max-w-4xl mx-auto" />
+            <Image src={carleton} alt="Carleton College Campus" width={600} height={400} />
             <p className="text-base sm:text-lg md:text-xl">
             I began my academic journey at Carleton University in Ottawa, receiving a BSc in biochemistry in 2020. I had a fantastic experience at Carleton, meeting many wonderful people. My experience in the biochemistry program gave me the mathematical, scientific, and analytical foundations that continue to benefit me in both my academic and professional careers to this day.
             </p>
@@ -41,7 +40,7 @@ function Education({}: Props) {
            <p className="text-base sm:text-lg md:text-xl">
             After graduating from Carleton with a BCS in Computer Science and working for a year, I pursued further studies at the Université de Bordeaux in France, as a recipient of the Graduate Studies in France scholarship from the French government. 
            </p>
-            <Image src={bdxgrad} alt="University of Bordeaux Campus" className="max-w-4xl mx-auto" />
+            <Image src={bdxgrad} alt="University of Bordeaux Campus" width={600} height={400} />
           <p className="text-base sm:text-lg md:text-xl">
             Studying in France was a lifechanging experience that markedly improved my social skills, my French and Spanish language skills, and broadened my knowledge of the world around me. Inside the classroom, this included learning about marketing and project management, while outside the classroom, I developed a deeper appreciation for different cultures and ways of life, including an appreciation for Bordelais wine and French cheeses.
            </p>
