@@ -41,7 +41,7 @@ yarn-error.log*
 next-env.d.ts
 
 # /public/out3.png
-/public/turout.png
-/public/portout2.png
-/public/portout.png
-/public/out2.png
+# /public/turout.png
+# /public/portout2.png
+# /public/portout.png
+# /public/out2.png
