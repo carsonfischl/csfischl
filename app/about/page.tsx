@@ -6,6 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 import collage from "@/public/out3.png";
 import turCollage from "@/public/turout.png";
 import portCollage from "@/public/portout2.png";
+import bordCollage from "@/public/bordout.png";
 import Image from 'next/image';
 
 type Props = {}
@@ -38,6 +39,10 @@ function About({}: Props) {
           Previously, I lived for several months in Türkiye, where I learned extensively about Turkish, Ottoman, and Byzantine history, and traveled extensively throughout the country. The best food is the iskender kebab! It's kebab, tomato sauce and pita drizzled in brown butter and served with Greek yogurt. I ate it everywhere, including the restaurant that invented it in Bursa. Highly recommended!
         </p>
         <Image src={turCollage} alt="Collage of various photos from Turkey including hiking and travel" className="max-w-4xl mx-auto" />
+        <p className="text-base sm:text-lg md:text-xl">
+          I also had the pleasure of living in Bordeaux, France for two years during my Master's studies. France is a wonderful country and Bordeaux, a wonderful city. The southeastern region of France is less explored by tourists, but has so much to offer in terms of history, culture, food, and wine.
+        </p>
+        <Image src={bordCollage} alt="Photo of Carleton University campus in Ottawa, Canada" className="max-w-4xl mx-auto" />
         <p className="text-base sm:text-lg md:text-xl">
           In my free time, I enjoy going on extended hikes and enjoying my love for the outdoors. This includes doing the Camino de Santiago in Spain, the Ruta Vicentina in Portugal, and various other trails across North America and Europe. 
         </p>
