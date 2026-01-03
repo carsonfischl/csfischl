@@ -40,7 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-/public/out3.png
+# /public/out3.png
 /public/turout.png
 /public/portout2.png
 /public/portout.png
