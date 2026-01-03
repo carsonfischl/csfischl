@@ -3,7 +3,7 @@
 import React from 'react'
 import carleton from '@/public/carleton.png';
 import { TypeAnimation } from 'react-type-animation';
-import collage from "@/public/out3.png";
+import collage from "@/public/out4.png";
 import turCollage from "@/public/turout.png";
 import portCollage from "@/public/portout2.png";
 import bordCollage from "@/public/bordout.png";
