@@ -14,13 +14,13 @@ export default function Home() {
       <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 w-screen">
         <Image src={logo} alt="Logo" />
         <div className="text-xl sm:text-md md:text-xl">
-          <TypeAnimation
+          <TypeAnimation 
             sequence={[
-              'Hacker', // Types 'One'
+              'Historian', // Types 'One'
               1000, // Waits 1s
-              'Scientist', // Deletes 'One' and types 'Two'
+              'Hacker', // Deletes 'One' and types 'Two'
               2000, // Waits 2s
-              'Hacker, Scientist, Eccentric',
+              'Historian. Hacker. All-around eccentric.',
               2000,
               () => {
                 console.log('Sequence completed');

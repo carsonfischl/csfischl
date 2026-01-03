@@ -21,7 +21,7 @@ export function AppSidebar() {
                 <img src={logo.src} alt="Logo" width={192} height={400} className="absolute pl-4"/>
             </a>
       </SidebarHeader>
-      <SidebarContent className="pt-20">
+      <SidebarContent className="pt-20 text-4xl text-center align-middle font-bold">
         <SidebarGroup>
             <SidebarGroupLabel>Personal</SidebarGroupLabel>
             <SidebarGroupContent>
@@ -29,7 +29,7 @@ export function AppSidebar() {
                     <SidebarMenuItem>
                         <SidebarMenuButton>
                             <a href='/about'>
-                                About
+                                About Me
                             </a>
                         </SidebarMenuButton>
                         <SidebarMenuButton>
@@ -61,11 +61,11 @@ export function AppSidebar() {
                                 Experience
                             </a>
                         </SidebarMenuButton>
-                        <SidebarMenuButton>
+                        {/* <SidebarMenuButton>
                             <a href='#'>
                                 Other
                             </a>
-                        </SidebarMenuButton>
+                        </SidebarMenuButton> */}
                     </SidebarMenuItem>
                 </SidebarMenu>
             </SidebarGroupContent>
