@@ -17,8 +17,8 @@ export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader className="min-h-7 block pt-6 pb-4">
-            <a href='/'>
-                <img src={logo.src} alt="Logo" width={192} height={400} className="absolute pl-4"/>
+            <a className="before:block before:absolute before:-inset-3 before:-skew-y-3 before:bg-pink-500 relative inline-block" href='/'>
+                <div className="relative text-white text-3xl hover:text-slate-700">Carson Fischl</div>
             </a>
       </SidebarHeader>
       <SidebarContent className="pt-20 text-4xl text-center align-middle font-bold">

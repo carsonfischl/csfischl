@@ -7,7 +7,7 @@ type Props = {}
 
 function Experience({}: Props) {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="flex min-h-screen items-center justify-centefont-sans dark:bg-black">
          <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 w-screen">
            <div className="text-xl sm:text-md md:text-xl">
              <TypeAnimation

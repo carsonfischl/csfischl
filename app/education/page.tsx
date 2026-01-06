@@ -12,7 +12,6 @@ type Props = {}
 
 function Education({}: Props) {
   return (
-   <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
          <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 py-16">
            <div className="text-xl sm:text-md md:text-xl">
              <TypeAnimation
@@ -50,7 +49,6 @@ function Education({}: Props) {
               I have a deep appreciation for all the educators, mentors, and peers who have supported me throughout my time in academia. You have all played a significant role in shaping my path in life, and I am grateful for the knowledge and experiences that I have gained along the way!
             </p>
          </main>
-       </div>
   )
 }
 

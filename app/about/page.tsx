@@ -13,7 +13,6 @@ type Props = {}
 
 function About({}: Props) {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 py-16">
         <div className="text-xl sm:text-md md:text-xl">
           <TypeAnimation
@@ -56,7 +55,6 @@ function About({}: Props) {
           I am always eager to meet likeminded people and seek out new opportunities, so feel free to reach out!
         </p>
       </main>
-    </div>
   )
 }
 
