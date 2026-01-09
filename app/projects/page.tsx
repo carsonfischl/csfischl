@@ -35,14 +35,14 @@ function Projects({}: Props) {
              For my MBA program, I wrote two significant papers. The first was a market analysis of the online dating industry, highlighting how the existing dating app business model is adverse to the user, and a proposal for a new entrant into the market. 
             </p> 
             <div className="self-center justify-center align-middle w-100 grid pb-12 pt-6">
-              <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M1EBA_2023_2024.pdf" width="827" height="1168" className='self-center align-middle justify-center py-4'></iframe>
+              <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M1EBA_2023_2024.pdf" className='self-center align-middle justify-center py-4 w-full h-96 mx-auto'></iframe>
             </div>
             {/* <embed src={m1thesis} type="application/pdf"></embed> */}
             <p className='text-base sm:text-lg md:text-xl'>
             The second paper was detailed analysis of the tariff policy of the Trump administration, as of August 2021, looking at White House statements and press releases and examining the potential economic impacts of the tariffs on both the US and global economies. This included a comparison to three historical instances of tariff implementations or political economic accords, and their economic effects; the Smoot-Hawley Tariff Act of 1930, the Abominable Tariff of 1828, and the Plaza Accord of 1985.
            </p>
           <div className="self-center justify-center align-middle w-100 grid pb-12 pt-6">
-              <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M2MBA_2024_2025.pdf" width="827" height="1168" className='self-center align-middle justify-center py-4'></iframe>
+              <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M2MBA_2024_2025.pdf" className='self-center align-middle justify-center py-4 w-full h-96 mx-auto'></iframe>
             </div>
          </main>
   )
