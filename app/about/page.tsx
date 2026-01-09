@@ -33,19 +33,19 @@ function About({}: Props) {
         <p className="text-base sm:text-lg md:text-xl">
           My name is Carson! I am currently a US-based consultant in the financial technology sector. My passions include history, hiking, economics, web development, numismatics, sport shooting, and going on adventures.
         </p> 
-        <Image src={collage} alt="Collage of various photos including hiking and travel" className="max-w-4xl mx-auto" />
+        <Image src={collage} alt="Collage of various photos including hiking and travel" />
         <p className="text-base sm:text-lg md:text-xl">
           Previously, I lived for several months in Türkiye, where I learned extensively about Turkish, Ottoman, and Byzantine history, and traveled extensively throughout the country. The best food is the iskender kebab! It's kebab, tomato sauce and pita drizzled in brown butter and served with Greek yogurt. I ate it everywhere, including the restaurant that invented it in Bursa. Highly recommended!
         </p>
-        <Image src={turCollage} alt="Collage of various photos from Turkey including hiking and travel" className="max-w-4xl mx-auto" />
+        <Image src={turCollage} alt="Collage of various photos from Turkey including hiking and travel" />
         <p className="text-base sm:text-lg md:text-xl">
           I also had the pleasure of living in Bordeaux, France for two years during my Master's studies. France is a wonderful country and Bordeaux, a wonderful city. The southeastern region of France is less explored by tourists, but has so much to offer in terms of history, culture, food, and wine.
         </p>
-        <Image src={bordCollage} alt="Photo of Carleton University campus in Ottawa, Canada" className="max-w-4xl mx-auto" />
+        <Image src={bordCollage} alt="Photo of Carleton University campus in Ottawa, Canada" />
         <p className="text-base sm:text-lg md:text-xl">
           In my free time, I enjoy going on extended hikes and enjoying my love for the outdoors. This includes doing the Camino de Santiago in Spain, the Ruta Vicentina in Portugal, and various other trails across North America and Europe. 
         </p>
-        <Image src={portCollage} alt="Collage of various photos from Portugal including hiking and travel" className="max-w-4xl mx-auto" />
+        <Image src={portCollage} alt="Collage of various photos from Portugal including hiking and travel" />
         <p className="text-base sm:text-lg md:text-xl">
           
           I am also an avid history enthusiast, with a particular interest in economic, political and military history. I am a member of various numismatic clubs and organizations and enjoy collecting historical coins and artifacts from around the world. My particular areas of interest include Hellenistic Era, Rome, the Byzantine Empire, the Age of Revolutions, and early modern European history.

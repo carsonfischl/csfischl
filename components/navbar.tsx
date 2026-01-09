@@ -19,7 +19,7 @@ export function Navbar() {
   const isMobile = useIsMobile()
 
   return (
-    <NavigationMenu viewport={isMobile} className="w-100-vw bg-white border-b dark:bg-black dark:border-b-slate-700 m-auto gap-3 flex justify-center h-content-center items-center h-20 font-mono">
+    <NavigationMenu viewport={isMobile} className="w-100-vw bg-white border-b dark:bg-black dark:border-b-slate-700 m-auto gap-3 flex justify-center h-content-center items-center h-20 font-mono lg:text-2xl md:text-lg sm:text-md text-md">
       <NavigationMenuList className="flex-wrap">
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
@@ -46,6 +46,11 @@ export function Navbar() {
             <Link href="/projects">Projects</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
+         {/* <NavigationMenuItem>
+          <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+            <Link href="/hobbies">Hobbies</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem> */}
       </NavigationMenuList>
     </NavigationMenu>
   )
