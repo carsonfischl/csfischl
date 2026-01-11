@@ -42,7 +42,7 @@ function Education({}: Props) {
            </p>
             <Image src={bdxgrad} alt="University of Bordeaux Campus" />
           <p className="text-base sm:text-lg md:text-xl">
-            Studying in France was a lifechanging experience that markedly improved my social skills, my French and Spanish language skills, and broadened my knowledge of the world around me. Inside the classroom, this included learning about marketing and project management, while outside the classroom, I developed a deeper appreciation for different cultures and ways of life, including an appreciation for Bordelais wine and French cheeses.
+            Studying in France was a lifechanging experience that markedly improved my social skills, my French and Spanish language skills, and broadened my knowledge of the world around me. Inside the classroom, this included learning about marketing and project management, while outside the classroom, I developed a deeper appreciation for different cultures and ways of life, including an appreciation for Bordelais wine and French cheeses. 
            </p>
             <Image src={ubordeaux} alt="University of Bordeaux Logo" width={800}/>
             <p className="text-base sm:text-lg md:text-xl">
