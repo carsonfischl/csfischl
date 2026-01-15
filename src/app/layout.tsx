@@ -40,6 +40,7 @@ export default function RootLayout({
             </main>
           </NextIntlClientProvider>
         {/* </SidebarProvider> */}
+        <Analytics />
       </body>
     </html>
   );
