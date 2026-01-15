@@ -4,6 +4,8 @@ import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
 import { Navbar } from "@/components/navbar";
+import {NextIntlClientProvider} from 'next-intl';
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Carson S. Fischl",
-  description: "A very cool site built with Next.js.",
+  description: "Historian. Hacker. All-around eccentric.",
 };
 
 export default function RootLayout({
@@ -30,11 +32,13 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* <SidebarProvider>
           <AppSidebar /> */}
-          <Navbar />
-          <main className="flex flex-col md:flex-row align-middle justify-center">
-          {/* <SidebarTrigger /> */}
-            {children}
-          </main>
+          <NextIntlClientProvider>
+            <Navbar />
+            <main className="flex flex-col md:flex-row align-middle justify-center">
+            {/* <SidebarTrigger /> */}
+              {children}
+            </main>
+          </NextIntlClientProvider>
         {/* </SidebarProvider> */}
       </body>
     </html>

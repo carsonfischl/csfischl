@@ -39,7 +39,7 @@ function About({}: Props) {
         </p>
         <Image src={turCollage} alt="Collage of various photos from Turkey including hiking and travel" />
         <p className="text-base sm:text-lg md:text-xl">
-          I also had the pleasure of living in Bordeaux, France for two years during my Master's studies. France is a wonderful country and Bordeaux, a wonderful city. The southeastern region of France is less explored by tourists, but has so much to offer in terms of history, culture, food, and wine.
+          I also had the pleasure of living in Bordeaux, France for two years during my Master's studies. France is a wonderful country and Bordeaux, a wonderful city. The southwestern region of France is less explored by tourists, but has so much to offer in terms of history, culture, food, and wine.
         </p>
         <Image src={bordCollage} alt="Photo of Carleton University campus in Ottawa, Canada" />
         <p className="text-base sm:text-lg md:text-xl">

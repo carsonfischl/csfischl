@@ -8,12 +8,15 @@ import Instagram from "@/public/instagram.svg";
 import YouTube from "@/public/youtube.svg";
 import { TypeAnimation } from 'react-type-animation';
 import Sig from "@/components/sig";
+import HomePage from "@/components/translate";
+import { Hop } from "lucide-react";
 
 export default function Home() {
   return (
       <main className="flex flex-col gap-12 px-6 text-center sm:px-12 py-8 align-middle justify-center items-center">
           <Image src={logo} alt="Logo" className="justify-center align-middle items-center path py-7" />
           <div className="text-xl sm:text-md md:text-xl">
+            <HomePage />
             <TypeAnimation 
               sequence={[
                 'Historian', // Types 'One'
