@@ -16,7 +16,7 @@ export default function Home() {
       <main className="flex flex-col gap-12 px-6 text-center sm:px-12 py-8 align-middle justify-center items-center">
           <Image src={logo} alt="Logo" className="justify-center align-middle items-center path py-7" />
           <div className="text-xl sm:text-md md:text-xl">
-            <HomePage />
+            {/* <HomePage /> */}
             <TypeAnimation 
               sequence={[
                 'Historian', // Types 'One'
