@@ -11,14 +11,10 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
+  NavigationMenuContent,
+  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { use } from "react"
-import { setRequestLocale } from "next-intl/server"
-
-interface Props {
-  params: Promise<{ locale: string }>
-}
 
 export function Navbar() {
   const isMobile = useIsMobile()
@@ -26,8 +22,7 @@ export function Navbar() {
   const pathname = usePathname()
   const locale = useLocale();
 
-  const toggleLocale = () => {
-    const newLocale = locale === "en" ? "fr" : "en"
+  const switchLocale = (newLocale: string) => {
     const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`)
     router.push(newPathname)
   }
@@ -63,15 +58,29 @@ export function Navbar() {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <button
-            onClick={toggleLocale}
-            className={navigationMenuTriggerStyle()}
-            aria-label="Toggle language"
-          >
+          <NavigationMenuTrigger className={navigationMenuTriggerStyle()}>
             <Globe className="w-5 h-5" />
-            <span className="ml-2">{locale.toUpperCase()}</span>
-          </button>
-        </NavigationMenuItem>
+              <span className="ml-2">{locale.toUpperCase()}</span>
+            </NavigationMenuTrigger>
+              {/* <NavigationMenuItem onClick={() => switchLocale("en")}>
+                English
+              </NavigationMenuItem>
+              <NavigationMenuItem onClick={() => switchLocale("fr")}>
+                Français
+              </NavigationMenuItem> */}
+              <NavigationMenuContent>
+                <ul className="grid w-[200px] gap-4">
+                  <li>
+                    <NavigationMenuLink asChild>
+                      <button onClick={() => switchLocale("en")}>English</button>
+                    </NavigationMenuLink>
+                    <NavigationMenuLink asChild>
+                      <button onClick={() => switchLocale("fr")}>Français</button>
+                    </NavigationMenuLink>
+                  </li>
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   )
