@@ -25,7 +25,7 @@ function About({params}: Props) {
 
   return (
       <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 py-16">
-        <div className="text-4xl sm:text-md md:text-xl font-bold">
+        <div className="text-4xl font-bold">
           <h1 className='font-bold'>{t('title')}</h1>
         </div>
         <p className="text-base sm:text-lg md:text-xl">
