@@ -2,76 +2,77 @@
 
 import * as React from "react"
 import Link from "next/link"
-import { CircleCheckIcon, CircleHelpIcon, CircleIcon } from "lucide-react"
-
+import { Globe } from "lucide-react"
 import { useIsMobile } from "@/hooks/use-mobile"
+import { useLocale, useTranslations } from "next-intl"
+import { useRouter, usePathname } from "next/navigation"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
+import { use } from "react"
+import { setRequestLocale } from "next-intl/server"
+
+interface Props {
+  params: Promise<{ locale: string }>
+}
 
 export function Navbar() {
   const isMobile = useIsMobile()
+  const router = useRouter()
+  const pathname = usePathname()
+  const locale = useLocale();
+
+  const toggleLocale = () => {
+    const newLocale = locale === "en" ? "fr" : "en"
+    const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`)
+    router.push(newPathname)
+  }
+
+  const t = useTranslations('Navbar');
 
   return (
     <NavigationMenu viewport={isMobile} className="w-100-vw bg-white border-b dark:bg-black dark:border-b-slate-700 m-auto gap-3 flex justify-center h-content-center items-center h-20 font-mono lg:text-2xl md:text-lg sm:text-md text-md">
       <NavigationMenuList className="flex-wrap">
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <Link href="/">Home</Link>
+            <Link href="/">{t('home')}</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <Link href="/about">About</Link>
+            <Link href="/about">{t('about')}</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <Link href="/education">Education</Link>
+            <Link href="/education">{t('education')}</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <Link href="/experience">Experience</Link>
+            <Link href="/experience">{t('experience')}</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <Link href="/projects">Projects</Link>
+            <Link href="/projects">{t('projects')}</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
-         {/* <NavigationMenuItem>
-          <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <Link href="/hobbies">Hobbies</Link>
-          </NavigationMenuLink>
-        </NavigationMenuItem> */}
+        <NavigationMenuItem>
+          <button
+            onClick={toggleLocale}
+            className={navigationMenuTriggerStyle()}
+            aria-label="Toggle language"
+          >
+            <Globe className="w-5 h-5" />
+            <span className="ml-2">{locale.toUpperCase()}</span>
+          </button>
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
-  )
-}
-
-function ListItem({
-  title,
-  children,
-  href,
-  ...props
-}: React.ComponentPropsWithoutRef<"li"> & { href: string }) {
-  return (
-    <li {...props}>
-      <NavigationMenuLink asChild>
-        <Link href={href}>
-          <div className="text-sm leading-none font-medium">{title}</div>
-          <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
-            {children}
-          </p>
-        </Link>
-      </NavigationMenuLink>
-    </li>
   )
 }

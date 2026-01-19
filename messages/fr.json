@@ -1,5 +1,48 @@
 {
   "HomePage": {
-    "title": "Bonjour le monde!"
-  }
+    "title": "Développeur. Historien amateur. Excentrique."
+  },
+  "Navbar": {
+    "home": "accueil",
+    "about": "à propos",
+    "education": "éducation",
+    "projects": "projets",
+    "experience": "expérience"
+  },
+  "EducationPage": {
+    "title": "Formation",
+    "section": {
+      "content": "J'ai commencé mon parcours universitaire à l'Université Carleton à Ottawa, où j'ai obtenu une licence en biochimie en 2020. J'ai vécu une expérience formidable à Carleton et j'y ai rencontré des personnes exceptionnelles. Ma formation en biochimie m'a apporté les bases mathématiques, scientifiques et analytiques qui me sont encore précieuses aujourd'hui, tant dans mes études que dans ma vie professionnelle.",
+      "content2": "Après avoir obtenu ma licence en biochimie, j'ai poursuivi mes études en informatique à l'Université Carleton, où j'ai obtenu un baccalauréat en sciences informatiques en 2022. J'ai pu accélérer mon parcours grâce aux crédits d'informatique obtenus lors de ma formation en biochimie. Au cours de ce programme, j'ai développé une passion pour le développement de logiciels et la résolution de problèmes, ce qui m'a incité à continuer d'apprendre et de me perfectionner dans ce domaine.",
+      "content3": "Après avoir obtenu une licence en informatique à l'Université Carleton et travaillé pendant un an, j'ai poursuivi mes études à l'Université de Bordeaux en France, grâce à une bourse d'études supérieures accordée par le gouvernement français.",
+      "content4": "Étudier en France a été une expérience marquante qui a considérablement amélioré mes compétences sociales, mes compétences linguistiques en français et en espagnol, et a élargi ma connaissance du monde qui m'entoure. En classe, j'ai notamment appris le marketing et la gestion de projet, tandis qu'en dehors des cours, j'ai développé une meilleure compréhension des différentes cultures et modes de vie, et j'ai notamment appris à apprécier les vins de Bordeaux et les fromages français.",
+      "content5": "J'éprouve une profonde gratitude envers tous les enseignants, les mentors et les camarades qui m'ont soutenue tout au long de mon parcours universitaire. Vous avez tous joué un rôle important dans la construction de mon chemin de vie, et je suis reconnaissante des connaissances et des expériences que j'ai acquises !"
+    }
+  },
+  "ProjectsPage": {
+    "title": "Projets",
+    "section": {
+      "content": "Récemment, j'ai commencé à expérimenter la création de vidéos YouTube, en me concentrant sur des contenus historiques et culturels. J'utilise Kdenlive comme mon éditeur vidéo, que je recommande vivement en tant que logiciel libre et open-source.",
+      "content2": "Dans le cadre de mon programme de MBA, j'ai rédigé deux mémoires importants. Le premier était une analyse de marché du secteur des rencontres en ligne, mettant en évidence les inconvénients du modèle économique actuel des applications de rencontre pour les utilisateurs, et proposant l'entrée d'un nouvel acteur sur ce marché.",
+      "content3": "Mon second mémoire était une analyse détaillée de la politique tarifaire de l'administration Trump, en date d'août 2021, examinant les déclarations de la Maison Blanche et les communiqués de presse, et analysant les impacts économiques potentiels des tarifs douaniers sur les économies américaine et mondiale. Cela comprenait une comparaison avec trois cas historiques de mise en œuvre de tarifs douaniers ou d'accords économiques politiques, et leurs effets économiques ; le Smoot-Hawley Tariff Act de 1930, le Abominable Tariff de 1828, et le Plaza Accord de 1985."
+    }
+  },
+  "ExperiencePage": {
+    "title": "Expérience",
+    "section": {
+      "content": "Auparavant, j'ai travaillé en tant que développeur logiciel pour Dell Technologies, où j'ai développé un cadre de test pour leurs produits d'infrastructure 5G. Ce rôle a considérablement amélioré mes compétences en Python et m'a exposé à l'automatisation des tests, aux pipelines CI/CD et aux technologies de télécommunications.",
+      "content2": "Avant Dell, j'ai travaillé avec l'équipe DDR PHY chez Synopsys en tant que stagiaire en ingénierie DDR PHY, où j'ai contribué à la conception et à la vérification d'interfaces mémoire à haute vitesse. Cette expérience m'a été inestimable, car elle m'a permis de comprendre de manière approfondie l'interaction entre le matériel et le logiciel ; de nombreuses fonctionnalités des langages de programmation de haut niveau sont le résultat direct des capacités matérielles.",
+      "content3": "Pendant la pandémie de COVID-19, j'ai eu le privilège de faire un stage au sein de la Task Force COVID-19 du gouvernement du Canada. Ce fut ma première expérience dans le secteur public, à une période très intéressante. J'ai examiné plus de 10 millions de dollars de demandes de subventions liées à la COVID-19, et j'ai réussi à collecter, nettoyer et analyser des données de tests antigéniques rapides provenant de pharmacies et de petites entreprises à travers le Canada."
+    }
+  },
+  "AboutPage": {
+    "title": "Bonjour!",
+    "section": {
+      "content": "Je m'appelle Carson ! Je suis actuellement consultant aux États-Unis dans le secteur des technologies financières. Mes passions incluent l'histoire, la randonnée, l'économie, le développement web, la numismatique, le tir sportif et les voyages d'aventure.",
+      "content2": "Auparavant, j'ai vécu plusieurs mois en Turquie, où j'ai beaucoup appris sur l'histoire turque, ottomane et byzantine, et où j'ai beaucoup voyagé à travers le pays. Le meilleur plat est l'iskender kebab ! C'est du kebab, de la sauce tomate et du pita nappés de beurre noisette et servis avec du yaourt grec. Je l'ai mangé partout, y compris dans le restaurant qui l'a inventé à Bursa. Hautement recommandé !",
+      "content3": "J'ai également eu le plaisir de vivre à Bordeaux, en France, pendant deux ans lors de mes études de Master. La France est un pays merveilleux et Bordeaux, une ville magnifique. La région du sud-ouest de la France est moins explorée par les touristes, mais elle a beaucoup à offrir en termes d'histoire, de culture, de gastronomie et de vin.",
+      "content4": "Pendant mon temps libre, j'aime faire de longues randonnées et profiter de mon amour pour la nature. Cela inclut le Camino de Santiago en Espagne, la Ruta Vicentina au Portugal, et divers autres sentiers à travers l'Amérique du Nord et l'Europe.",
+      "content5": "Je suis également un passionné d'histoire, avec un intérêt particulier pour l'histoire économique, politique et militaire. Je suis membre de plusieurs clubs et organisations numismatiques et j'aime collectionner des pièces de monnaie et des artefacts historiques du monde entier. Mes domaines d'intérêt particuliers incluent l'époque hellénistique, Rome, l'Empire byzantin, l'âge des révolutions et l'histoire européenne moderne. \n\n Lorsque je développe des applications web, ma pile technologique de choix comprend Next.js, React, TypeScript, Tailwind CSS et Node.js. J'aime construire des solutions à la fois front-end et back-end. Pour les projets hors développement web, j'utilise souvent Python pour l'analyse de données et les tâches d'automatisation. \n\n Je suis toujours désireux de rencontrer des personnes partageant les mêmes idées et de chercher de nouvelles opportunités, alors n'hésitez pas à me contacter !"
+    } 
+  } 
 }

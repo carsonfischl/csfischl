@@ -2,7 +2,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 
-type Props = {}
+type Props = object
 
 function Hobbies({}: Props) {
   return (
@@ -25,7 +25,7 @@ function Hobbies({}: Props) {
              />
            </div>
            <p className="text-base sm:text-lg md:text-xl">
-             In my spare time, I enjoy hiking, reading history books and watching historical documentaries, numismatics, and fitness. I've run the Toronto Waterfront Marathon twice and completed several half-marathons. 
+             In my spare time, I enjoy hiking, reading history books and watching historical documentaries, numismatics, and fitness. I&apos;ve run the Toronto Waterfront Marathon twice and completed several half-marathons. 
            </p>
          </main>
        </div>

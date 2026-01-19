@@ -7,6 +7,7 @@ import { Navbar } from "@/components/navbar";
 import {NextIntlClientProvider} from 'next-intl';
 import { Analytics } from "@vercel/analytics/next"
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -33,7 +34,7 @@ export default function RootLayout({
         {/* <SidebarProvider>
           <AppSidebar /> */}
           <NextIntlClientProvider>
-            <Navbar />
+            <Navbar/>
             <main className="flex flex-col md:flex-row align-middle justify-center">
             {/* <SidebarTrigger /> */}
               {children}

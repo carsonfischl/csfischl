@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import Image from "next/image";
 import logo from "@/public/drawing.svg";
@@ -10,31 +10,29 @@ import { TypeAnimation } from 'react-type-animation';
 import Sig from "@/components/sig";
 import HomePage from "@/components/translate";
 import { Hop } from "lucide-react";
+import { setRequestLocale } from "next-intl/server";
+import { useTranslations } from "next-intl";
+import { use } from "react";
 
-export default function Home() {
+type Props = {
+  children: React.ReactNode;
+  params: Promise<{locale: string}>;
+};
+
+export default function Home({params}: Props) {
+  const {locale} = use(params);
+   
+    // Enable static rendering
+    setRequestLocale(locale);
+   
+    // Once the request locale is set, you
+    // can call hooks from `next-intl`
+    const t = useTranslations('HomePage');
+
   return (
       <main className="flex flex-col gap-12 px-6 text-center sm:px-12 py-8 align-middle justify-center items-center">
           <Image src={logo} alt="Logo" className="justify-center align-middle items-center path py-7" />
-          <div className="text-xl sm:text-md md:text-xl">
-            {/* <HomePage /> */}
-            <TypeAnimation 
-              sequence={[
-                'Historian', // Types 'One'
-                1000, // Waits 1s
-                'Hacker', // Deletes 'One' and types 'Two'
-                2000, // Waits 2s
-                'Historian. Hacker. All-around eccentric.',
-                2000,
-                () => {
-                  console.log('Sequence completed');
-                },
-              ]}
-              wrapper="span"
-              cursor={true}
-              repeat={1}
-              style={{ fontSize: '2em', display: 'inline-block' }}
-            />
-          </div>
+          <h1 className="text-4xl">{t('title')}</h1>
           <div className="flex flex-col gap-12 text-base font-medium sm:flex-row">
             <a href="https://www.instagram.com/carson6f/" target="_blank" rel="noopener noreferrer">
               <Image src={Instagram} alt="Instagram" className="h-6 w-6 hover:opacity-70" />
