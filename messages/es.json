@@ -1,0 +1,48 @@
+{
+  "HomePage": {
+    "title": "Historiador. Desarrollador. Excéntrico."
+  },
+  "Navbar": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "education": "Educación",
+    "projects": "Proyectos",
+    "experience": "Experiencia"
+  },
+  "EducationPage": {
+    "title": "Educación",
+    "section": {
+      "content": "Comencé mi trayectoria académica en la Universidad de Carleton en Ottawa, obteniendo una licenciatura en bioquímica en 2020. Tuve una experiencia fantástica en Carleton, conociendo a muchas personas maravillosas. Mi experiencia en el programa de bioquímica me proporcionó las bases matemáticas, científicas y analíticas que continúan beneficiándome tanto en mi carrera académica como profesional hasta el día de hoy.",
+      "content2": "Después de mi licenciatura en bioquímica, cursé una licenciatura en Ciencias de la Computación en Carleton, graduándome en 2022, utilizando mis créditos de ciencias de la computación de la licenciatura en bioquímica para acelerar mis estudios. Durante mi tiempo en el programa de ciencias de la computación, desarrollé una pasión por el desarrollo de software y la resolución de problemas, lo que me ha impulsado a seguir aprendiendo y creciendo en este campo.",
+      "content3": "Después de graduarme de Carleton con un BCS en Ciencias de la Computación y trabajar durante un año, continué mis estudios en la Université de Bordeaux en Francia, como beneficiario de la beca de Estudios de Posgrado en Francia del gobierno francés.",
+      "content4": "Estudiar en Francia fue una experiencia que cambió mi vida y mejoró notablemente mis habilidades sociales, mis habilidades en francés y español, y amplió mi conocimiento del mundo que me rodea. Dentro del aula, esto incluyó aprender sobre marketing y gestión de proyectos, mientras que fuera del aula, desarrollé una apreciación más profunda por diferentes culturas y formas de vida, incluyendo una apreciación por el vino bordelés y los quesos franceses.",
+      "content5": "Tengo un profundo agradecimiento por todos los educadores, mentores y compañeros que me han apoyado a lo largo de mi tiempo en la academia. Todos ustedes han jugado un papel significativo en la formación de mi camino en la vida, y estoy agradecido por el conocimiento y las experiencias que he adquirido en el camino."
+    }
+  },
+  "ProjectsPage": {
+    "title": "Proyectos",
+    "section": {
+      "content": "Recientemente, he comenzado a experimentar con la creación de videos en YouTube, con un enfoque en contenido histórico y cultural. Uso Kdenlive como mi editor de video, que recomiendo encarecidamente como un software libre y de código abierto.",
+      "content2": "Para mi programa de MBA, escribí dos trabajos importantes. El primero fue un análisis de mercado de la industria de citas en línea, destacando cómo el modelo de negocio de las aplicaciones de citas existentes es adverso para el usuario, y una propuesta para un nuevo participante en el mercado.",
+      "content3": "El segundo trabajo fue un análisis detallado de la política arancelaria de la administración Trump, a partir de agosto de 2021, examinando declaraciones de la Casa Blanca y comunicados de prensa y analizando los posibles impactos económicos de los aranceles tanto en los EE. UU. como en las economías globales. Esto incluyó una comparación con tres instancias históricas de implementaciones arancelarias o acuerdos económicos políticos, y sus efectos económicos; la Ley de Aranceles Smoot-Hawley de 1930, el Arancel Abominable de 1828 y el Acuerdo de Plaza de 1985."
+    }
+  },
+  "ExperiencePage": {
+    "title": "Experiencia",
+    "section": {
+      "content": "Anteriormente, trabajé como desarrollador de software para Dell Technologies, desarrollando un marco de pruebas para sus productos de infraestructura 5G. Este rol mejoró significativamente mis habilidades en Python y me expuso a la automatización de pruebas, pipelines CI/CD y tecnologías de telecomunicaciones.",
+      "content2": "Antes de Dell, trabajé con el equipo DDR PHY en Synopsys como pasante de ingeniería DDR PHY, donde contribuí al diseño y verificación de interfaces de memoria de alta velocidad. Esta experiencia fue invaluable para mí, ya que me proporcionó una comprensión fantástica de la interacción entre hardware y software; muchas características de los lenguajes de programación de alto nivel son el resultado directo de las capacidades del hardware.",
+      "content3": "Durante la pandemia de COVID-19, tuve el privilegio de realizar una pasantía con el Grupo de Trabajo COVID-19 del Gobierno de Canadá. Esta fue mi primera exposición al trabajo en el sector público, en un momento muy interesante. Revisé más de $10 millones en solicitudes de subvenciones relacionadas con COVID-19, y recopilé, limpié y analicé con éxito datos de pruebas rápidas de antígenos de farmacias y pequeñas empresas en todo Canadá."
+    }
+  },
+  "AboutPage": {
+    "title": "¡Hola!",
+    "section": {
+      "content": "¡Me llamo Carson! Actualmente soy consultor en el sector de tecnología financiera en Estados Unidos. Mis pasiones incluyen la historia, el senderismo, la economía, el desarrollo web, la numismática, el tiro deportivo y las aventuras.",
+      "content2": "Anteriormente, viví durante varios meses en Türkiye, donde aprendí extensamente sobre la historia turca, otomana y bizantina, y viajé extensamente por todo el país. ¡La mejor comida es el kebab iskender! Es kebab, salsa de tomate y pita rociados con mantequilla marrón y servidos con yogur griego. Lo comí en todas partes, incluido el restaurante que lo inventó en Bursa. ¡Muy recomendable!",
+      "content3": "También tuve el placer de vivir en Burdeos, Francia, durante dos años durante mis estudios de maestría. Francia es un país maravilloso y Burdeos, una ciudad maravillosa. La región suroeste de Francia es menos explorada por los turistas, pero tiene mucho que ofrecer en términos de historia, cultura, comida y vino.",
+      "content4": "En mi tiempo libre, disfruto hacer caminatas largas y disfrutar de mi amor por el aire libre. Esto incluye hacer el Camino de Santiago en España, la Ruta Vicentina en Portugal y varios otros senderos en América del Norte y Europa.",
+      "content5": "También soy un entusiasta de la historia, con un interés particular en la historia económica, política y militar. Soy miembro de varios clubes y organizaciones numismáticas y disfruto coleccionar monedas y artefactos históricos de todo el mundo. Mis áreas de interés particular incluyen la Era Helenística, Roma, el Imperio Bizantino, la Era de las Revoluciones y la historia europea moderna temprana. \n\n Cuando desarrollo aplicaciones web, mi stack de elección incluye Next.js, React, TypeScript, Tailwind CSS y Node.js. Disfruto construir soluciones tanto de front-end como de back-end. Para proyectos que no son de desarrollo web, a menudo uso Python para análisis de datos y tareas de automatización. \n\n Siempre estoy ansioso por conocer personas con ideas afines y buscar nuevas oportunidades, ¡así que no dudes en contactarme!"
+    } 
+  } 
+}
