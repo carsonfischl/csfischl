@@ -77,6 +77,9 @@ export function Navbar() {
                     <NavigationMenuLink asChild>
                       <button onClick={() => switchLocale("fr")}>Français</button>
                     </NavigationMenuLink>
+                    <NavigationMenuLink asChild>
+                      <button onClick={() => switchLocale("es")}>Español</button>
+                    </NavigationMenuLink>
                   </li>
                 </ul>
               </NavigationMenuContent>
