@@ -58,6 +58,11 @@ export function Navbar() {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
+          <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+            <Link href="/blog">{t('blog')}</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuTrigger className={navigationMenuTriggerStyle()}>
             <Globe className="w-5 h-5" />
               <span className="ml-2">{locale.toUpperCase()}</span>
