@@ -4,11 +4,15 @@ import carleton from '@/public/carleton.png';
 import { TypeAnimation } from 'react-type-animation';
 import collage from "@/public/out4.png";
 import turCollage from "@/public/turout.png";
-import portCollage from "@/public/portout2.png";
+import portCollage from "@/public/spaport2.png";
 import bordCollage from "@/public/bordout.png";
+import maps from '@/public/mapout.png';
 import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
+import next from '@/public/nextjs.svg';
+import python from '@/public/python.svg';
+import node from '@/public/node.svg';
 
 type Props = {
   children: React.ReactNode;
@@ -46,6 +50,18 @@ function About({params}: Props) {
         <Image src={portCollage} alt="Collage of various photos from Portugal including hiking and travel" />
         <p className="text-base sm:text-lg md:text-xl">
           {s('content5')}
+        </p>
+        <Image src={maps} alt="Map showing various artifacts and historical sites." />
+        <p className="text-base sm:text-lg md:text-xl">
+          {s('content6')}
+        </p>
+        <div className="flex flex-row gap-6 align-middle justify-center">
+          <Image src={next} alt="Next.js Logo" className='w-1/5'/>
+          <Image src={node} alt="Node.js Logo" className="w-1/5" />
+          <Image src={python} alt="Python Logo" className="w-1/5" />
+        </div>
+        <p className="text-base sm:text-lg md:text-xl">
+          {s('content7')}
         </p>
       </main>
   )
