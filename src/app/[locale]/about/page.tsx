@@ -4,7 +4,7 @@ import carleton from '@/public/carleton.png';
 import { TypeAnimation } from 'react-type-animation';
 import collage from "@/public/out4.png";
 import turCollage from "@/public/turout.png";
-import portCollage from "@/public/spaport2.png";
+import portCollage from "@/public/spaport3.png";
 import bordCollage from "@/public/bordout.png";
 import maps from '@/public/mapout.png';
 import Image from 'next/image';
