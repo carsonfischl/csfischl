@@ -1,2 +1,4 @@
 # git lfs track "public/out3.png"
 public/out3.png filter=lfs diff=lfs merge=lfs -text
+public/spaport.png filter=lfs diff=lfs merge=lfs -text
+public/spaport2.png filter=lfs diff=lfs merge=lfs -text

@@ -46,5 +46,23 @@
       "content6": "Lorsque je développe des applications web, ma pile technologique de choix comprend Next.js, React, TypeScript, Tailwind CSS et Node.js. J'aime construire des solutions à la fois front-end et back-end. Pour les projets hors développement web, j'utilise souvent Python pour l'analyse de données et les tâches d'automatisation.",
       "content7": "Je suis toujours désireux de rencontrer des personnes partageant les mêmes idées et de chercher de nouvelles opportunités, alors n'hésitez pas à me contacter !"
     } 
-  } 
+  },
+  "BlogPage": {
+    "title": "Blog",
+    "01-25-2026": {
+      "title": "Europe must concede nothing to the Trump Administration, for its own sake.",
+      "date": "January 25th, 2026",
+        "content": {
+          "paragraph1": "In January 2026, US President Donald J. Trump announced, using a platform of his own creation, Truth Social, that the United would be implementing a blanket 10% tariff on all imports from the European Union, in response to Danish refusal to give up their sovereignty over Greenland. President Trump has repeatedly stated that ",
+          "paragraph2": "The European Union responded by imposing retaliatory tariffs on a range of American products, including bourbon, motorcycles, and jeans."
+        }
+      },
+    "01-26-2026": {
+      "title": "EU should federate before it is too late.",
+      "date": "January 26th, 2026",
+      "content": {
+        "paragraph1": "The Trump administration&apos;s tariff policy, implemented in August 2021, has had significant economic impacts on both the United States and global economies. This paper examines these impacts through a comparative analysis with three historical instances of tariff implementations or political economic accords: the Smoot."
+      }
+    }
+  }
 }
