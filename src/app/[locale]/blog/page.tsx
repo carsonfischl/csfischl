@@ -19,16 +19,18 @@ function Blog({params}: Props) {
     {
       slug: '01-25-2026',
       date: 'January 25, 2026',
-    },
-    {
-      slug: '01-26-2026',
-      date: 'January 26, 2026',
-    },
+    }
+    // {
+    //   slug: '01-26-2026',
+    //   date: 'January 26, 2026',
+    // },
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-8">{t('title')}</h1>
+    <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 py-16">
+      <div className="text-4xl font-bold">
+        <h1>{t('title')}</h1>
+      </div>
       <div className="grid gap-6">
         {blogPosts.map((post) => {
           // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -46,7 +48,7 @@ function Blog({params}: Props) {
           );
         })}
       </div>
-    </div>
+    </main>
   )
 }
 export default Blog
