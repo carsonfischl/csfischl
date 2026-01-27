@@ -32,16 +32,16 @@ function Projects({params}: Props) {
             </a>
            <p className="text-base sm:text-lg md:text-xl">
               {s('content2')}
-            </p> 
-            <div className="self-center justify-center align-middle w-100 grid pb-12 pt-6">
-              <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M1EBA_2023_2024.pdf" className='self-center align-middle justify-center py-4 w-full h-96 mx-auto'></iframe>
+            </p>
+            <div className="w-full pb-12 pt-6">
+              <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M1EBA_2023_2024.pdf" className='w-full h-[100vh] mx-auto overflow-hidden'></iframe>
             </div>
             {/* <embed src={m1thesis} type="application/pdf"></embed> */}
             <p className='text-base sm:text-lg md:text-xl'>
               {s('content3')}
-           </p>
-          <div className="self-center justify-center align-middle w-100 grid pb-12 pt-6">
-              <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M2MBA_2024_2025.pdf" className='self-center align-middle justify-center py-4 w-full h-96 mx-auto'></iframe>
+             </p>
+            <div className="w-full pb-12 pt-6">
+              <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M2MBA_2024_2025.pdf" className='w-full h-[100vh] mx-auto overflow-hidden'></iframe>
             </div>
          </main>
   )

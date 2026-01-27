@@ -4,8 +4,10 @@ import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
 import { Navbar } from "@/components/navbar";
-import {NextIntlClientProvider} from 'next-intl';
+import {NextIntlClientProvider, useTranslations} from 'next-intl';
 import { Analytics } from "@vercel/analytics/next"
+import { use } from "react";
+import { setRequestLocale } from "next-intl/server";
 
 
 const geistSans = Geist({
@@ -18,10 +20,20 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Carson S. Fischl",
-  description: "Historian. Hacker. All-around eccentric.",
-};
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  // const { locale } = await params;
+
+  // setRequestLocale(locale);
+
+  // // eslint-disable-next-line react-hooks/rules-of-hooks
+  // const t = useTranslations('HomePage');
+  
+  return {
+    title: "Carson S. Fischl",
+    description: "Historian. Hacker. All-around eccentric.",
+  };
+}
 
 export default function RootLayout({
   children,
