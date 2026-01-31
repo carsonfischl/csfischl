@@ -30,7 +30,6 @@ function page({params}: Props) {
           <h1 className=''>{t('date')}</h1>
         </div>
         <Image src={greenland} alt="Photo of Greenland's landscape" />
-        <h1 className='mt-0 text-sm italic'>Annie Spratt, Unsplash</h1>
         <p className="text-base sm:text-lg md:text-xl text-left first-letter:text-5xl first-letter:font-bold first-letter:mr-2 mb-0 pb-0">
           {t('content.paragraph1')}
         </p> 
