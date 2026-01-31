@@ -17,13 +17,13 @@ function Blog({params}: Props) {
 
   const blogPosts = [
     {
+      slug: '01-30-2026',
+      date: 'January 30th, 2026',
+    },
+    {
       slug: '01-25-2026',
-      date: 'January 25, 2026',
+      date: 'January 25th, 2026',
     }
-    // {
-    //   slug: '01-26-2026',
-    //   date: 'January 26, 2026',
-    // },
   ];
 
   return (
