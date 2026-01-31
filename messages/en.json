@@ -39,13 +39,13 @@
   "AboutPage": {
     "title": "Hello!",
     "section": {
-      "content": "My name is Carson! I am currently a US-based consultant in the financial technology sector. My passions include history, hiking, economics, web development, numismatics, sport shooting, and going on adventures.",
+      "content": "My name is Carson! I am currently a US-based consultant in the financial technology sector. My passions include history, hiking, economics, web development, numismatics, sport shooting, and going on various adventures.",
       "content2": "Previously, I lived for several months in Türkiye, where I learned extensively about Turkish, Ottoman, and Byzantine history, and traveled extensively throughout the country. The best food is the iskender kebab! It's kebab, tomato sauce and pita drizzled in brown butter and served with Greek yogurt. I ate it everywhere, including the restaurant that invented it in Bursa. Highly recommended!",
       "content3": "I also had the pleasure of living in Bordeaux, France for two years during my Master's studies. France is a wonderful country and Bordeaux, a wonderful city. The southwestern region of France is less explored by tourists, but has so much to offer in terms of history, culture, food, and wine.",
-      "content4": "In my free time, I enjoy going on extended hikes and enjoying my love for the outdoors. This includes doing the Camino de Santiago in Spain, the Ruta Vicentina in Portugal, and various other trails across North America and Europe.",
-      "content5": "I am also an avid history enthusiast, with a particular interest in economic, political and military history. I am a member of various numismatic clubs and organizations and enjoy collecting historical coins and artifacts from around the world. My particular areas of interest include Hellenistic Era, Rome, the Byzantine Empire, the Age of Revolutions, and early modern European history.",
+      "content4": "In my free time, I enjoy going on extended hikes and spending time outdoors. This includes hiking the Camino de Santiago in Spain, the Ruta Vicentina in Portugal, and various other trails across North America and Europe.",
+      "content5": "I am also an avid history enthusiast, with a particular interest in economic, political and military history. I am a member of various numismatic clubs and organizations and enjoy collecting historical coins and artifacts from around the world. My particular areas of interest include the Hellenistic Era, Ancient Rome, the Age of Revolutions, and early modern European history.",
       "content6": "When I develop web applications, my stack of choice includes Next.js, React, TypeScript, Tailwind CSS, and Node.js. I enjoy building both front-end and back-end solutions. For non-web development projects, I often use Python for data analysis and automation tasks.",
-      "content7": "I am always eager to meet likeminded people and seek out new opportunities, so feel free to reach out!"
+      "content7": "I am always eager to meet likeminded people and seek out new opportunities, so feel free to reach out if you're working on an interesting project!"
     } 
   },
   "BlogPage": {
