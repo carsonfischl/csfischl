@@ -6,6 +6,7 @@ import warsh2 from '@/public/warsh.png';
 import Image from 'next/image';
 import janekevin from '@/public/janekevin2.jpeg';
 import lauder from '@/public/lauder.png';
+import epstein from '@/public/epstein.png';
 
 type Props = {
   children: React.ReactNode;
@@ -63,6 +64,10 @@ function page({params}: Props) {
         <p className="text-base sm:text-lg md:text-xl text-left indent-8">
             {t('content.paragraph10')}
         </p>
+        <p className="text-base sm:text-lg md:text-xl text-left indent-8 mb-0 pb-0">
+            {t('content.paragraph11')}
+        </p>
+        <Image src={epstein} alt="Epstein" className='m-0 p-0'/>
     </main>
   )
 }
