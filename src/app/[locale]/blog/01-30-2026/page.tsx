@@ -64,7 +64,7 @@ function page({params}: Props) {
         <p className="text-base sm:text-lg md:text-xl text-left indent-8">
             {t('content.paragraph10')}
         </p>
-        <p className="text-base sm:text-lg md:text-xl text-left indent-8 mb-0 pb-0">
+        <p className="text-base sm:text-lg md:text-xl text-left indent-8">
             {t('content.paragraph11')}
         </p>
         <Image src={epstein} alt="Epstein" className='m-0 p-0'/>
