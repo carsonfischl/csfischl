@@ -17,6 +17,10 @@ function Blog({params}: Props) {
 
   const blogPosts = [
     {
+      slug: '03-23-2026',
+      date: 'March 23rd, 2026',
+    },
+    {
       slug: '01-30-2026',
       date: 'January 30th, 2026',
     },

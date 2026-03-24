@@ -90,7 +90,7 @@
       "title": "Comment créer facilement une cryptomonnaie en 2026.",
       "date": "23 mars 2026",
       "content": {
-      "paragraph1": "Cet article est un guide rapide pour déployer un nouveau jeton sur la blockchain ethereum. Veuillez noter que ceci n'est pas une approbation de l'espace des cryptomonnaies.",
+      "paragraph1": "Ceçi est un guide rapide pour déployer un nouveau jeton sur la blockchain ethereum. Veuillez noter que ceci n'est pas une approbation de l'espace des cryptomonnaies.",
       "paragraph2": "Pour commencer, installez le portefeuille de navigateur MetaMask à l'URL suivante. MetaMask est un portefeuille de navigateur gratuit largement accepté dans l'espace crypto, ce qui signifie qu'il a un haut degré d'interopérabilité avec divers outils et applications de cryptomonnaies. Cliquez sur le bouton « Commencer » pour installer l'extension et créer un portefeuille.",
       "paragraph3": "Une fois que vous avez installé et configuré votre portefeuille, accédez au menu des paramètres et assurez-vous que l'option « Afficher les réseaux de test » est activée. Utilisez le menu déroulant pour sélectionner le réseau de test Sepolia. Cela nous permettra de déployer notre jeton sur un réseau de test avant d'accéder au réseau Ethereum principal, ce qui coûtera de l'ether.",
       "paragraph4": "Maintenant, accédez à l'URL suivante pour recevoir de l'ether Sepolia gratuit. Entrez l'adresse de votre portefeuille (qui se trouve en haut de votre extension de portefeuille MetaMask) et cliquez sur le bouton « Obtenir 0,05 Sepolia ETH ». Bien qu'il n'ait aucune valeur monétaire, cet ether Sepolia est nécessaire pour payer le déploiement de notre contrat de jeton sur le réseau de test Sepolia.",

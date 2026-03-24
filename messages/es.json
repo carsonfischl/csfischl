@@ -90,7 +90,7 @@
       "title": "Cómo crear fácilmente una criptomoneda en 2026.",
       "date": "23 de febrero de 2026",
       "content": {
-      "paragraph1": "Esta publicación es una guía rápida para implementar un nuevo token en la blockchain de ethereum. Tenga en cuenta que esto no es un respaldo del espacio de criptomonedas.",
+      "paragraph1": "Esta es una guía rápida para implementar un nuevo token en la blockchain de ethereum. Tenga en cuenta que esto no es un respaldo del espacio de criptomonedas.",
       "paragraph2": "Para comenzar, instale la billetera del navegador MetaMask en la siguiente URL. MetaMask es una billetera de navegador gratuita que es ampliamente aceptada en el espacio cripto, lo que significa que tiene un alto grado de interoperabilidad con varias herramientas y aplicaciones de criptomonedas. Haga clic en el botón \"Comenzar\" para instalar la extensión y crear una billetera.",
       "paragraph3": "Una vez que haya instalado y configurado su billetera, navegue al menú de configuración y asegúrese de que la opción \"Mostrar redes de prueba\" esté habilitada. Utilice el menú desplegable para seleccionar la red de prueba Sepolia. Esto nos permitirá implementar nuestro token en una red de prueba antes de ir en vivo en la red principal de ethereum, que costará ether.",
       "paragraph4": "Ahora, navegue a la siguiente URL para recibir ether de prueba Sepolia gratis. Ingrese la dirección de su billetera (que se puede encontrar en la parte superior de su extensión de billetera MetaMask) y haga clic en el botón \"Obtener 0.05 ether Sepolia\". Aunque no tiene valor en efectivo, este ether de prueba Sepolia es necesario para pagar la implementación de nuestro contrato de token en la red de prueba Sepolia.",
