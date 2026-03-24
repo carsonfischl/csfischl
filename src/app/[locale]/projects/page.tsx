@@ -5,6 +5,13 @@ import vid from '@/public/maxresdefault.jpg';
 import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
+import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
+
+import dynamic from "next/dynamic";
+
+// const PDFViewer = dynamic(() => import("@/components/pdf"), {
+//   ssr: false
+// });
 
 type Props = {
   children: React.ReactNode;
@@ -30,6 +37,7 @@ function Projects({params}: Props) {
             <a href="http://youtube.com/watch?v=b90dwUP8zb4" target="_blank" rel="noopener noreferrer" className="hover:underline">
               <Image src={vid} alt="YouTube Video Thumbnail" />
             </a>
+            {/* <PDFViewer /> */}
            <p className="text-base sm:text-lg md:text-xl">
               {s('content2')}
             </p>
