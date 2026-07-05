@@ -1,7 +1,7 @@
 
 import React, { use } from 'react'
 import carleton from '@/public/carleton.png';
-import { TypeAnimation } from 'react-type-animation';
+import TypingTitle from '@/components/typing-title';
 import collage from "@/public/out4.png";
 import turCollage from "@/public/turout.png";
 import portCollage from "@/public/spaport3.png";
@@ -30,7 +30,7 @@ function About({params}: Props) {
   return (
       <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 py-16">
         <div className="text-4xl font-bold">
-          <h1 className='font-bold'>{t('title')}</h1>
+          <TypingTitle text={t('title')} className="font-bold" />
         </div>
         <p className="text-base sm:text-lg md:text-xl">
           {s('content')}

@@ -6,9 +6,9 @@ import Linkedin from "@/public/linkedin.svg";
 import Github from "@/public/github.svg";
 import Instagram from "@/public/instagram.svg";
 import YouTube from "@/public/youtube.svg";
-import { TypeAnimation } from 'react-type-animation';
 import Sig from "@/components/sig";
 import HomePage from "@/components/translate";
+import TypingTitle from "@/components/typing-title";
 import { Hop } from "lucide-react";
 import { setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
@@ -32,7 +32,7 @@ export default function Home({params}: Props) {
   return (
       <main className="flex flex-col gap-12 px-6 text-center sm:px-12 py-8 align-middle justify-center items-center">
           <Image src={logo} alt="Logo" className="justify-center align-middle items-center path py-7" />
-          <h1 className="text-4xl">{t('title')}</h1>
+          <TypingTitle text={t('title')} className="text-4xl" />
           <div className="flex flex-col gap-12 text-base font-medium sm:flex-row">
             <a href="https://www.instagram.com/carson6f/" target="_blank" rel="noopener noreferrer">
               <Image src={Instagram} alt="Instagram" className="h-6 w-6 hover:opacity-70" />

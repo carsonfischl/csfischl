@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { use } from 'react';
 import Link from 'next/link';
+import TypingTitle from '@/components/typing-title';
 
 type Props = {
   children: React.ReactNode;
@@ -16,6 +17,10 @@ function Blog({params}: Props) {
   const t = useTranslations('BlogPage');
 
   const blogPosts = [
+    {
+      slug: '06-28-2026',
+      date: 'June 28th, 2026',
+    },
     {
       slug: '03-23-2026',
       date: 'March 23rd, 2026',
@@ -33,7 +38,7 @@ function Blog({params}: Props) {
   return (
     <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 py-16">
       <div className="text-4xl font-bold">
-        <h1>{t('title')}</h1>
+        <TypingTitle text={t('title')} />
       </div>
       <div className="grid gap-6">
         {blogPosts.map((post) => {

@@ -1,6 +1,7 @@
 import React, { use } from 'react'
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
+import TypingTitle from '@/components/typing-title';
 import { Link } from '@/src/i18n/navigation';
 import metamask from '@/public/metamask.png';
 import Image from 'next/image';
@@ -35,7 +36,7 @@ function page({params}: Props) {
   return (
     <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 py-16">
         <div className="text-4xl font-bold">
-          <h1 className='font-bold'>{t('title')}</h1>
+          <TypingTitle text={t('title')} className="font-bold" />
         </div>
         <div className="text-xl italic">
           <h1 className=''>{t('date')}</h1>

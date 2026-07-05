@@ -1,6 +1,6 @@
 
 import React, { use } from 'react'
-import { TypeAnimation } from 'react-type-animation';
+import TypingTitle from '@/components/typing-title';
 import snps from '@/public/snps3.png';
 import Image from 'next/image';
 import ottawa from '@/public/govCanada.png';
@@ -23,7 +23,7 @@ function Experience({params}: Props) {
   return (
          <main className="flex max-w-7xl flex-col items-center gap-12 px-6 text-center sm:px-12 py-16">
            <div className="text-4xl font-bold">
-              <h1>{t('title')}</h1>
+              <TypingTitle text={t('title')} />
            </div>
            
            <p className="text-base sm:text-lg md:text-xl">
