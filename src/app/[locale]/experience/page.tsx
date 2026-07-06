@@ -4,6 +4,7 @@ import TypingTitle from '@/components/typing-title';
 import snps from '@/public/snps3.png';
 import Image from 'next/image';
 import ottawa from '@/public/govCanada.png';
+import nyc from '@/public/fdmout.png'
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 
@@ -25,6 +26,8 @@ function Experience({params}: Props) {
            <div className="text-4xl font-bold">
               <TypingTitle text={t('title')} />
            </div>
+
+           <Image src={nyc} alt="Near FDM NYC" className=''/>
            
            <p className="text-base sm:text-lg md:text-xl">
               {s('content')}
@@ -39,6 +42,10 @@ function Experience({params}: Props) {
 
             <p className="text-base sm:text-lg md:text-xl">
               {s('content3')}
+            </p>
+
+            <p className="text-base sm:text-lg md:text-xl">
+              {s('content4')}
             </p>
          </main>
 
