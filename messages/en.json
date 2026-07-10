@@ -31,8 +31,8 @@
   "ExperiencePage": {
     "title": "Experience",
     "section": {
-      "content": "Currently, I work as a Product Owner and Consultant for FDM Group in NYC, working with clients in the financial services industry. We are creating a React/Spring Boot web application that allows users to use proprietary cryptocurrencies to make payments on the Ethereum and Solana blockchains.",
-      "content2":"Previously, I worked as a software developer for Dell Technologies, developing a testing framework for their 5G infrastructure products. This role significantly enhanced my skills in Python and exposed me to test automation, CI/CD pipelines, and telecommunications technologies.",
+      "content": "Previously, I worked as a Product Owner and Consultant for FDM Group in NYC, working with clients in the financial services industry. We created a React/Spring Boot web application that allows users to use proprietary cryptocurrencies to make payments on the Ethereum and Solana blockchains.",
+      "content2":"Before that, I worked as a software developer for Dell Technologies, developing a testing framework for their 5G infrastructure products. This role significantly enhanced my skills in Python and exposed me to test automation, CI/CD pipelines, and telecommunications technologies.",
       "content3": "Prior to Dell, I worked with the DDR PHY team at Synopsys as a DDR PHY Engineering Intern, where I contributed to the design and verification of high-speed memory interfaces. This experience was invaluable to me, as it provided a fantastic understanding of the interaction between hardware and software; many features of higher level programming languages are the direct result of hardware capabilities.",
       "content4": "During the COVID-19 pandemic, I had the privilege of interning with the Government of Canada's COVID-19 Task Force. This was my first exposure to public sector work, at a very interesting time. I reviewed over $10 million in grant applications related to COVID-19, and successfully collated, cleaned, and analyzed rapid antigen testing data from pharmacies and small businesses across Canada."
     }
