@@ -1,12 +1,11 @@
 // "use client";
 
 import Image from "next/image";
-import logo from "@/public/drawing.svg";
 import Linkedin from "@/public/linkedin.svg";
 import Github from "@/public/github.svg";
 import Instagram from "@/public/instagram.svg";
 import YouTube from "@/public/youtube.svg";
-import Sig from "@/components/sig";
+import Signature from "@/components/signature";
 import HomePage from "@/components/translate";
 import TypingTitle from "@/components/typing-title";
 import { Hop } from "lucide-react";
@@ -31,7 +30,7 @@ export default function Home({params}: Props) {
 
   return (
       <main className="flex flex-col gap-12 px-6 text-center sm:px-12 py-8 align-middle justify-center items-center">
-          <Image src={logo} alt="Logo" className="justify-center align-middle items-center path py-7" />
+          <Signature className="w-full max-w-[805px] h-auto justify-center align-middle items-center py-7 text-foreground" />
           <TypingTitle text={t('title')} className="text-4xl" />
           <div className="flex flex-col gap-12 text-base font-medium sm:flex-row">
             <a href="https://www.instagram.com/carson6f/" target="_blank" rel="noopener noreferrer">
