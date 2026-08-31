@@ -8,6 +8,7 @@ import spratt from '@/public/spratt.jpg';
 import warsh from '@/public/warsh.jpg';
 import metamask from '@/public/metamask.png';
 import immigration from '@/public/immigration.png';
+import dna1 from '@/public/dna1.jpg';
 
 type Props = {
   children: React.ReactNode;
@@ -22,6 +23,12 @@ function Blog({params}: Props) {
   const t = useTranslations('BlogPage');
 
   const blogPosts: { slug: string; date: string; thumbnail: StaticImageData; thumbnailAlt: string }[] = [
+    {
+      slug: '08-27-2026',
+      date: 'August 27th, 2026',
+      thumbnail: dna1,
+      thumbnailAlt: 'DNA double helix diagram',
+    },
     {
       slug: '06-28-2026',
       date: 'June 28th, 2026',
