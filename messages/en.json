@@ -23,9 +23,11 @@
   "ProjectsPage": {
     "title": "Projects",
     "section": {
-      "content": "Recently, I have begun to experiment with making YouTube videos, with a focus on historical and cultural content. I use Kdenlive as my video editor, which I highly recommend as a piece of free and open-source software.",
-      "content2": "For my MBA program, I wrote two significant papers. The first was a market analysis of the online dating industry, highlighting how the existing dating app business model is adverse to the user, and a proposal for a new entrant into the market.",
-      "content3": "The second paper was detailed analysis of the tariff policy of the Trump administration, as of August 2021, looking at White House statements and press releases and examining the potential economic impacts of the tariffs on both the US and global economies. This included a comparison to three historical instances of tariff implementations or political economic accords, and their economic effects; the Smoot-Hawley Tariff Act of 1930, the Abominable Tariff of 1828, and the Plaza Accord of 1985."
+      "content": "Recently, I have begun to experiment with making YouTube videos, with a focus on historical and cultural content. I use Kdenlive and CapCut as my video editors, which I highly recommend.",
+      "content2": "My most recent video is on the discovery of the structure of DNA.",
+      "content3": "Prior to that, I made a video essay on the life of Alcibiades, an Ancient Athenian statesman.",
+      "content4": "For my MBA program, I wrote two significant papers. The first was a market analysis of the online dating industry, highlighting how the existing dating app business model is adverse to the user, and a proposal for a new entrant into the market.",
+      "content5": "The second paper was detailed analysis of the tariff policy of the Trump administration, as of August 2021, looking at White House statements and press releases and examining the potential economic impacts of the tariffs on both the US and global economies. This included a comparison to three historical instances of tariff implementations or political economic accords, and their economic effects; the Smoot-Hawley Tariff Act of 1930, the Abominable Tariff of 1828, and the Plaza Accord of 1985."
     }
   },
   "ExperiencePage": {

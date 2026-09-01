@@ -32,27 +32,27 @@ function About({params}: Props) {
         <div className="text-4xl font-bold">
           <TypingTitle text={t('title')} className="font-bold" />
         </div>
-        <p className="text-base sm:text-lg md:text-xl">
+        <p className="text-base sm:text-lg md:text-xl text-left">
           {s('content')}
         </p> 
         <Image src={collage} alt="Collage of various photos including hiking and travel" />
-        <p className="text-base sm:text-lg md:text-xl">
+        <p className="text-base sm:text-lg md:text-xl text-left">
           {s('content2')}
         </p>
         <Image src={turCollage} alt="Collage of various photos from Turkey including hiking and travel" />
-        <p className="text-base sm:text-lg md:text-xl">
+        <p className="text-base sm:text-lg md:text-xl text-left">
           {s('content3')}
         </p>
         <Image src={bordCollage} alt="Photo of Carleton University campus in Ottawa, Canada" />
-        <p className="text-base sm:text-lg md:text-xl">
+        <p className="text-base sm:text-lg md:text-xl text-left">
           {s('content4')}
         </p>
         <Image src={portCollage} alt="Collage of various photos from Portugal including hiking and travel" />
-        <p className="text-base sm:text-lg md:text-xl">
+        <p className="text-base sm:text-lg md:text-xl text-left">
           {s('content5')}
         </p>
         <Image src={maps} alt="Map showing various artifacts and historical sites." />
-        <p className="text-base sm:text-lg md:text-xl">
+        <p className="text-base sm:text-lg md:text-xl text-left">
           {s('content6')}
         </p>
         <div className="flex flex-row gap-6 align-middle justify-center">
@@ -60,7 +60,7 @@ function About({params}: Props) {
           <Image src={node} alt="Node.js Logo" className="w-1/5" />
           <Image src={python} alt="Python Logo" className="w-1/5" />
         </div>
-        <p className="text-base sm:text-lg md:text-xl">
+        <p className="text-base sm:text-lg md:text-xl text-left">
           {s('content7')}
         </p>
       </main>

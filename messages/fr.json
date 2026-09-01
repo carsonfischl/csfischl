@@ -23,9 +23,11 @@
   "ProjectsPage": {
     "title": "Projets",
     "section": {
-      "content": "Récemment, j'ai commencé à expérimenter la création de vidéos YouTube, en me concentrant sur des contenus historiques et culturels. J'utilise Kdenlive comme mon éditeur vidéo, que je recommande vivement en tant que logiciel libre et open-source.",
-      "content2": "Dans le cadre de mon programme de MBA, j'ai rédigé deux mémoires importants. Le premier était une analyse de marché du secteur des rencontres en ligne, mettant en évidence les inconvénients du modèle économique actuel des applications de rencontre pour les utilisateurs, et proposant l'entrée d'un nouvel acteur sur ce marché.",
-      "content3": "Mon second mémoire était une analyse détaillée de la politique tarifaire de l'administration Trump, en date d'août 2021, examinant les déclarations de la Maison Blanche et les communiqués de presse, et analysant les impacts économiques potentiels des tarifs douaniers sur les économies américaine et mondiale. Cela comprenait une comparaison avec trois cas historiques de mise en œuvre de tarifs douaniers ou d'accords économiques politiques, et leurs effets économiques ; le Smoot-Hawley Tariff Act de 1930, le Abominable Tariff de 1828, et le Plaza Accord de 1985."
+      "content": "Récemment, j'ai commencé à expérimenter la création de vidéos YouTube, en me concentrant sur des contenus historiques et culturels. J'utilise Kdenlive et CapCut comme mes éditeurs vidéo, que je recommande vivement.",
+      "content2": "Ma vidéo la plus récente porte sur la découverte de la structure de l'ADN.",
+      "content3": "Avant cela, j'ai réalisé un essai vidéo sur la vie d'Alcibiade, un homme d'État de l'Athènes antique.",
+      "content4": "Dans le cadre de mon programme de MBA, j'ai rédigé deux mémoires importants. Le premier était une analyse de marché du secteur des rencontres en ligne, mettant en évidence les inconvénients du modèle économique actuel des applications de rencontre pour les utilisateurs, et proposant l'entrée d'un nouvel acteur sur ce marché.",
+      "content5": "Mon second mémoire était une analyse détaillée de la politique tarifaire de l'administration Trump, en date d'août 2021, examinant les déclarations de la Maison Blanche et les communiqués de presse, et analysant les impacts économiques potentiels des tarifs douaniers sur les économies américaine et mondiale. Cela comprenait une comparaison avec trois cas historiques de mise en œuvre de tarifs douaniers ou d'accords économiques politiques, et leurs effets économiques ; le Smoot-Hawley Tariff Act de 1930, le Abominable Tariff de 1828, et le Plaza Accord de 1985."
     }
   },
   "ExperiencePage": {

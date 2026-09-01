@@ -28,22 +28,22 @@ function Education({params}: Props) {
               <TypingTitle text={t('title')} />
            </div>
             <Image src={carleton} alt="Carleton College Campus" />
-            <p className="text-base sm:text-lg md:text-xl">
+            <p className="text-base sm:text-lg md:text-xl text-left">
             {s('content')}
             </p>
            <Image src={carleton2} alt="Carleton College Logo" />
-           <p className="text-base sm:text-lg md:text-xl">
+           <p className="text-base sm:text-lg md:text-xl text-left">
            {s('content2')}
            </p>
-           <p className="text-base sm:text-lg md:text-xl">
+           <p className="text-base sm:text-lg md:text-xl text-left">
             {s('content3')}
            </p>
             <Image src={bdxgrad} alt="University of Bordeaux Campus" />
-          <p className="text-base sm:text-lg md:text-xl">
+          <p className="text-base sm:text-lg md:text-xl text-left">
             {s('content4')}
            </p>
             <Image src={ubordeaux} alt="University of Bordeaux Logo" width={800}/>
-            <p className="text-base sm:text-lg md:text-xl">
+            <p className="text-base sm:text-lg md:text-xl text-left">
               {s('content5')}
             </p>
          </main>

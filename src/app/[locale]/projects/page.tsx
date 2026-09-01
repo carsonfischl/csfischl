@@ -2,6 +2,7 @@
 import React, { use } from 'react'
 import TypingTitle from '@/components/typing-title';
 import vid from '@/public/maxresdefault.jpg';
+import dna17 from '@/public/Kids Science Experiment.png';
 import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
@@ -31,22 +32,31 @@ function Projects({params}: Props) {
            <div className="text-4xl font-bold">
              <TypingTitle text={t('title')} />
            </div>
-           <p className="text-base sm:text-lg md:text-xl">
+           <p className="text-base sm:text-lg md:text-xl text-left">
                {s('content')}
+            </p>
+            <p className="text-base sm:text-lg md:text-xl text-left">
+              {s('content2')}
+            </p>
+            <a href="https://www.youtube.com/watch?v=fMnjaRC_7Jc" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <Image src={dna17} alt="YouTube Video Thumbnail" />
+            </a>
+            <p className="text-base sm:text-lg md:text-xl text-left">
+              {s('content3')}
             </p>
             <a href="http://youtube.com/watch?v=b90dwUP8zb4" target="_blank" rel="noopener noreferrer" className="hover:underline">
               <Image src={vid} alt="YouTube Video Thumbnail" />
             </a>
             {/* <PDFViewer /> */}
-           <p className="text-base sm:text-lg md:text-xl">
-              {s('content2')}
+           <p className="text-base sm:text-lg md:text-xl text-left">
+              {s('content4')}
             </p>
             <div className="w-full pb-12 pt-6">
               <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M1EBA_2023_2024.pdf" className='w-full h-[100vh] mx-auto overflow-hidden'></iframe>
             </div>
             {/* <embed src={m1thesis} type="application/pdf"></embed> */}
-            <p className='text-base sm:text-lg md:text-xl'>
-              {s('content3')}
+            <p className='text-base sm:text-lg md:text-xl text-left'>
+              {s('content5')}
              </p>
             <div className="w-full pb-12 pt-6">
               <iframe src="https://csfischl.vercel.app/FISCHL_Carson_M2MBA_2024_2025.pdf" className='w-full h-[100vh] mx-auto overflow-hidden'></iframe>

@@ -29,23 +29,23 @@ function Experience({params}: Props) {
 
            <Image src={nyc} alt="Near FDM NYC" className=''/>
            
-           <p className="text-base sm:text-lg md:text-xl">
+           <p className="text-base sm:text-lg md:text-xl text-left">
               {s('content')}
            </p>
 
-            <p className="text-base sm:text-lg md:text-xl">
+            <p className="text-base sm:text-lg md:text-xl text-left">
               {s('content2')}
            </p>
 
            <Image src={snps} alt="Synopsys" />
 
-            <p className="text-base sm:text-lg md:text-xl">
+            <p className="text-base sm:text-lg md:text-xl text-left">
               {s('content3')}
             </p>
 
             <Image src={ottawa} alt="Government of Canada" />
 
-            <p className="text-base sm:text-lg md:text-xl">
+            <p className="text-base sm:text-lg md:text-xl text-left">
               {s('content4')}
             </p>
          </main>
